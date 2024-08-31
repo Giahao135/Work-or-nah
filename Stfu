@@ -1,0 +1,206 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Money x Tokyo hub", "Midnight")
+
+local Tab = Window:NewTab("Hub 1")
+local Section = Tab:NewSection("Hubs")
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ 
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "MxT"
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+ 
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
+
+Section:NewButton("No Name hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoName-010/AFAS3000/main/Loader"))()
+    print("Clicked")
+end)Section:NewButton("Raymakk hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-ray-makk-script-CUSTOM-15914"))()
+    print("Clicked")
+end)Section:NewButton("Tariviste hub", "ButtonInfo", function()
+loadstring(game: HttpGet("https://raw .githubusercontent.com/Tariviste/Scripts /eaf7c8bdc00fcd01c656d9b4c103b6e4a260 e374/The%20Strongest%20Battlegrounds"))()
+    print("Clicked")
+end)Section:NewButton("Glacier hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))()
+    print("Clicked")
+end)Section:NewButton("Tam hub", "ButtonInfo", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/bettertamhub.lua")()
+    print("Clicked")
+end)local Tab = Window:NewTab("Hub 2")
+local Section = Tab:NewSection("Hubs or what idk")
+Section:NewButton("kilo meter hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/3gegto57/raw"))()
+    print("Clicked")
+end)Section:NewButton("NSExpression hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://github.com/1dontgiveaf/NSExpression/raw/main/script.lua", true))()
+    print("Clicked")
+end)Section:NewButton("Zygarde hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/Zygarde/main/Protected%20zygarde.lua"))()
+    print("Clicked")
+end)Section:NewButton("Pendulum hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+    print("Clicked")
+end)Section:NewButton("TSBG animation", "ButtonInfo", function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Kj-animation-15651"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("Hub 3")
+local Section = Tab:NewSection("Hubs")
+Section:NewButton("Aqua hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/aquarius-hub/raw"))()
+    print("Clicked")
+end)Section:NewButton("Betless hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://rentry.org/betless-hub-x/raw"))()
+    print("Clicked")
+end)Section:NewButton("Zenon hub", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/gbwEzNX4/raw"))()
+    print("Clicked")
+end)Section:NewButton("Heich hub", "ButtonInfo", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()
+    print("Clicked")
+end)
+local Tab = Window:NewTab("my moveset 1")
+local Section = Tab:NewSection("Characters or idk")
+Section:NewButton("Garou to Ten Shadow", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/eK3fMWTz/raw"))()
+    print("Clicked")
+end)Section:NewButton("Garou to Lebron James", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/JAlWLLvO/raw"))()
+    print("Clicked")
+end)Section:NewButton("Saitama to Gojo", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/KlYk2Xr4/raw"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Ichigo", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/NRUEKDJz/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("my moveset 2")
+local Section = Tab:NewSection("Characters custom")
+Section:NewButton("saitama to Mahito (credit to: qaiddanial2904)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/GxXX26vs/raw"))()
+    print("Clicked")
+end)Section:NewButton("Hydra moveset (my moveset)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/Jldr9ePd/raw"))()
+    print("Clicked")
+end)Section:NewButton("Genos awakened", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/aUUIl6bi/raw"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Sukuna", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/toGhuDOb/raw"))()
+    print("Clicked")
+end)Section:NewButton("Atomic to Gojo (beta)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/SfpNWwTa/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("Revive after dead quotes")
+local Section = Tab:NewSection("Credit to raybutbetter")
+Section:NewButton("Gojo revive for saitama to gojo (just use once)", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/D7mFyUHx/raw"))()
+    print("Clicked")
+end)Section:NewButton("Megumi revive", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/8K2FmQo5/raw"))()
+    print("Clicked")
+end)Section:NewButton("Sukuna revive", "ButtonInfo", function()
+loadstring(game:HttpGet("https://pastefy.app/h3Eq9n27/raw"))()
+    print("Clicked")
+end)Section:NewButton("Ichigo revive", "ButtonInfo", function()
+loadstring(game:HtpGet("https://pastefy.app/O9x83cfj/raw"))()
+    print("Clicked")
+end)local Tab = Window:NewTab("KJ")
+local Section = Tab:NewSection("KJ move")
+Section:NewButton("ravage victim", "victim player", function()
+    local p = game.Players.LocalPlayer
+    local Humanoid = p.Character:WaitForChild("Humanoid")
+
+    local AnimAnim = Instance.new("Animation")
+    AnimAnim.AnimationId = "rbxassetid://16945557433"
+    local Anim = Humanoid:LoadAnimation(AnimAnim)
+    AnimAnim.AnimationId = "rbxassetid://0"
+    Anim:Play()
+
+    -- Play sounds
+    local soundIds = {16945593216, 16945691441}
+    for _, soundId in ipairs(soundIds) do
+        local sound = Instance.new("Sound")
+        sound.Name = "Dropkick Miss"
+        sound.SoundId = "rbxassetid://" .. soundId
+        sound.Volume = 1
+        sound.Pitch = 1.0
+        sound.PlaybackSpeed = 1.0
+        sound.Parent = workspace
+        sound:Play()
+        wait(0.3)
+    end
+    print("Clicked")
+end)Section:NewButton("kj spawn", "player spawn animation", function()
+    local p = game.Players.LocalPlayer
+    local Humanoid = p.Character:WaitForChild("Humanoid")
+
+    local AnimAnim = Instance.new("Animation")
+    AnimAnim.AnimationId = "rbxassetid://17325160621"
+    local Anim = Humanoid:LoadAnimation(AnimAnim)
+    AnimAnim.AnimationId = "rbxassetid://0"
+    Anim:Play()
+    print("Clicked")
+end)Section:NewButton("Collateral ruin", "player", function()
+    local p = game.Players.LocalPlayer
+    local Humanoid = p.Character:WaitForChild("Humanoid")
+
+    local AnimAnim = Instance.new("Animation")
+    AnimAnim.AnimationId = "rbxassetid://17325254223"
+    local Anim = Humanoid:LoadAnimation(AnimAnim)
+    AnimAnim.AnimationId = "rbxassetid://0"
+    Anim:Play()
+    print("Clicked")
+end)Section:NewButton("ravage", "player ravage", function()
+    local p = game.Players.LocalPlayer
+    local Humanoid = p.Character:WaitForChild("Humanoid")
+
+    local AnimAnim = Instance.new("Animation")
+    AnimAnim.AnimationId = "rbxassetid://16945550029"
+    local Anim = Humanoid:LoadAnimation(AnimAnim)
+    AnimAnim.AnimationId = "rbxassetid://0"
+    Anim:Play()
+
+    -- Play sounds
+    local soundIds = {16945495411, 16945593216, 16945691441}
+    for _, soundId in ipairs(soundIds) do
+        local sound = Instance.new("Sound")
+        sound.Name = "Dropkick Miss"
+        sound.SoundId = "rbxassetid://" .. soundId
+        sound.Volume = 1
+        sound.Pitch = 1.0
+        sound.PlaybackSpeed = 1.0
+        sound.Parent = workspace
+        sound:Play()
+        wait(0.3)
+    end
+    print("Clicked")
+end)local Tab = Window:NewTab("Check this tab for more of MxT hub")
+local Section = Tab:NewSection("part 2 MxT hub soon")
+Section:NewButton("dont mind about this", "ButtonInfo", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mautiku/ehh/main/sussy's%20animation%20logger.txt",true))()
+    print("Clicked")
+end)Section:NewButton("tester: staticnoy, cute_cat.idk, sosukeaizen56,...", "ButtonInfo", function()
+    print("Clicked")
+end)Section:NewButton("helper: staticnoy, bestmobileplayer8328, sosukeaizen56", "ButtonInfo", function()
+    print("Clicked")
+end)Section:NewButton("moveset idea: bestmobileplayer8328, sosukeaizen56,...", "ButtonInfo", function()
+    print("Clicked")
+end)Section:NewButton("script owner: Tokyozxc", "ButtonInfo", function()
+    print("Clicked")
+end)
